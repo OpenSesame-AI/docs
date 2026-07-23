@@ -44,7 +44,7 @@
     "primary": {
       "type": "button",
       "label": "Get started",
-      "href": "/edward/admin/overview"
+      "href": "https://app.textcell.ai/sign-in"
     }
   }
 }
