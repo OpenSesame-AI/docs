@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "name": "Magic",
+  "name": "General Magic",
   "theme": "almond",
   "colors": {
     "primary": "#ef7025",
@@ -11,62 +11,29 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Getting Started",
+        "tab": "Edward",
         "groups": [
           {
-            "group": "Welcome",
+            "group": "Get started",
             "pages": [
-              "introduction",
-              "what-is-magic",
-              "quickstart"
+              "index"
             ]
           },
           {
-            "group": "Your Account",
+            "group": "Admin guide",
             "pages": [
-              "account/create-account",
-              "account/dashboard-overview",
-              "account/manage-apps"
+              "edward/admin/overview",
+              "edward/admin/setup",
+              "edward/admin/team-access",
+              "edward/admin/documents"
             ]
           },
           {
-            "group": "Sign-In Options",
+            "group": "Broker guide",
             "pages": [
-              "auth/email-login",
-              "auth/social-login",
-              "auth/passkeys"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Using Magic",
-        "groups": [
-          {
-            "group": "Your Wallet",
-            "pages": [
-              "wallet/wallet-overview",
-              "wallet/view-assets",
-              "wallet/send-receive",
-              "wallet/export-keys"
-            ]
-          },
-          {
-            "group": "Guides",
-            "pages": [
-              "guides/first-transaction",
-              "guides/add-funds",
-              "guides/connect-app",
-              "guides/supported-networks"
-            ]
-          },
-          {
-            "group": "Help",
-            "pages": [
-              "help/faq",
-              "help/security",
-              "help/troubleshooting",
-              "help/contact"
+              "edward/broker/overview",
+              "edward/broker/asking-questions",
+              "edward/broker/understanding-answers"
             ]
           }
         ]
@@ -76,8 +43,8 @@
   "navbar": {
     "primary": {
       "type": "button",
-      "label": "Get Started",
-      "href": "https://magic.link"
+      "label": "Get started",
+      "href": "/edward/admin/overview"
     }
   }
 }
