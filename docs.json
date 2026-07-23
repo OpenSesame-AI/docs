@@ -1,0 +1,83 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "Magic",
+  "theme": "almond",
+  "colors": {
+    "primary": "#ef7025",
+    "light": "#eec9bc",
+    "dark": "#4fa1ab"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Getting Started",
+        "groups": [
+          {
+            "group": "Welcome",
+            "pages": [
+              "introduction",
+              "what-is-magic",
+              "quickstart"
+            ]
+          },
+          {
+            "group": "Your Account",
+            "pages": [
+              "account/create-account",
+              "account/dashboard-overview",
+              "account/manage-apps"
+            ]
+          },
+          {
+            "group": "Sign-In Options",
+            "pages": [
+              "auth/email-login",
+              "auth/social-login",
+              "auth/passkeys"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Using Magic",
+        "groups": [
+          {
+            "group": "Your Wallet",
+            "pages": [
+              "wallet/wallet-overview",
+              "wallet/view-assets",
+              "wallet/send-receive",
+              "wallet/export-keys"
+            ]
+          },
+          {
+            "group": "Guides",
+            "pages": [
+              "guides/first-transaction",
+              "guides/add-funds",
+              "guides/connect-app",
+              "guides/supported-networks"
+            ]
+          },
+          {
+            "group": "Help",
+            "pages": [
+              "help/faq",
+              "help/security",
+              "help/troubleshooting",
+              "help/contact"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "navbar": {
+    "primary": {
+      "type": "button",
+      "label": "Get Started",
+      "href": "https://magic.link"
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "projectType": "saas",
+  "projectName": "Magic",
+  "projectDescription": "Magic is a wallet-as-a-service platform that lets users sign in and manage digital wallets without technical knowledge, using familiar logins like email and social accounts.",
+  "theme": "almond",
+  "primaryColor": "#ef7025",
+  "lightColor": "#eec9bc",
+  "darkColor": "#4fa1ab",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Getting Started",
+        "groups": [
+          {
+            "group": "Welcome",
+            "pages": [
+              "introduction",
+              "what-is-magic",
+              "quickstart"
+            ]
+          },
+          {
+            "group": "Your Account",
+            "pages": [
+              "account/create-account",
+              "account/dashboard-overview",
+              "account/manage-apps"
+            ]
+          },
+          {
+            "group": "Sign-In Options",
+            "pages": [
+              "auth/email-login",
+              "auth/social-login",
+              "auth/passkeys"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Using Magic",
+        "groups": [
+          {
+            "group": "Your Wallet",
+            "pages": [
+              "wallet/wallet-overview",
+              "wallet/view-assets",
+              "wallet/send-receive",
+              "wallet/export-keys"
+            ]
+          },
+          {
+            "group": "Guides",
+            "pages": [
+              "guides/first-transaction",
+              "guides/add-funds",
+              "guides/connect-app",
+              "guides/supported-networks"
+            ]
+          },
+          {
+            "group": "Help",
+            "pages": [
+              "help/faq",
+              "help/security",
+              "help/troubleshooting",
+              "help/contact"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Passwordless sign-in via email, SMS, and social accounts",
+    "Non-custodial embedded wallets — users own their keys",
+    "Support for 30+ blockchains including Ethereum, Polygon, and Solana",
+    "One-click fiat on-ramp to buy crypto directly",
+    "Private key export so users always control their assets",
+    "Passkey support for biometric authentication",
+    "White-label wallet experience built into any app"
+  ],
+  "publicApiSurface": [
+    "Email OTP login",
+    "Social login (Google, Apple, Twitter, Discord, GitHub, etc.)",
+    "Passkey / biometric login",
+    "Wallet creation and management",
+    "Transaction signing",
+    "Asset viewing and transfer",
+    "Private key export",
+    "Fiat on-ramp (buy crypto)",
+    "Multi-chain support (EVM, Solana, Bitcoin)"
+  ]
+}

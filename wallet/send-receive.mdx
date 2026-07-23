@@ -1,0 +1,87 @@
+---
+title: "How to Send and Receive Funds with Your Magic Wallet"
+sidebarTitle: "Send & Receive"
+description: "Learn how to send digital assets to another wallet and how to share your address to receive funds. Step-by-step for first-time users."
+---
+
+Sending and receiving digital assets with Magic works like a bank transfer — you just need the recipient's wallet address instead of a bank account number. Magic walks you through every step and shows you a full summary before anything is confirmed.
+
+## Receiving funds
+
+To receive tokens or NFTs, share your wallet address with whoever is sending them to you. Your address never changes, so you can save it and reuse it.
+
+<Steps>
+  <Step title="Open your Magic wallet">
+    Sign in to your Magic account and navigate to the **Wallet** tab in your dashboard.
+  </Step>
+  <Step title='Click "Receive"'>
+    Your wallet address and a scannable QR code appear on screen. Both contain the same information — use whichever is more convenient.
+  </Step>
+  <Step title="Share your address">
+    Copy the address and send it to the person paying you, or have them point their phone camera at your QR code to scan it directly.
+  </Step>
+</Steps>
+
+<Note>
+  Always confirm you're sharing the right network's address before asking someone to send funds. For example, share your **Ethereum address** to receive ETH or ERC-20 tokens, and your **Solana address** to receive SOL or SPL tokens. Sending assets to an address on the wrong network can result in permanent loss of funds.
+</Note>
+
+## Sending funds
+
+<Steps>
+  <Step title='Click "Send" in your wallet'>
+    Open the **Wallet** tab and click the **Send** button. A send form appears.
+  </Step>
+  <Step title="Enter the recipient's wallet address">
+    Paste the recipient's wallet address into the address field, or click the QR code icon to open your camera and scan their code. Double-check every character — addresses are case-sensitive on some networks.
+  </Step>
+  <Step title="Choose the asset and enter the amount">
+    Select the token you want to send from the dropdown, then type in the amount. Your available balance is shown below the amount field.
+  </Step>
+  <Step title="Review the transaction details">
+    Magic displays a summary screen showing the recipient address, the amount, and the estimated network fee. Read this screen carefully before proceeding.
+  </Step>
+  <Step title="Confirm to sign and send">
+    Click **Confirm** to sign the transaction with your private key and broadcast it to the network. Magic will show you the transaction hash once it's submitted.
+  </Step>
+</Steps>
+
+<Warning>
+  Blockchain transactions cannot be reversed once confirmed. Always double-check the recipient address and the amount before clicking **Confirm**. If you send funds to the wrong address, there is no way to recover them.
+</Warning>
+
+## Network fees
+
+Every transaction on a blockchain requires a small fee — commonly called a **gas fee** — paid to the validators who process and confirm it. This fee goes directly to the network, not to Magic.
+
+The fee amount varies depending on:
+
+- **Which network you're using** — Ethereum fees are typically higher than Polygon or Solana.
+- **How busy the network is** — fees rise during periods of high demand.
+
+Magic always shows you the estimated fee on the review screen before you confirm. You must have enough of the network's native token (for example, ETH on Ethereum, MATIC on Polygon, or SOL on Solana) in your wallet to cover the fee.
+
+## How long do transfers take?
+
+Confirmation times depend on the network you're using. Here's what to expect:
+
+<Accordion title="Ethereum">
+  Most Ethereum transactions confirm in **15 seconds to a few minutes** under normal network conditions. During periods of high congestion, confirmation can take longer. You can track the status of your transaction on [Etherscan](https://etherscan.io) using the transaction hash from your activity feed.
+</Accordion>
+
+<Accordion title="Polygon">
+  Polygon transactions typically confirm in **2–5 seconds**. It's one of the fastest and lowest-cost networks supported by Magic.
+</Accordion>
+
+<Accordion title="Solana">
+  Solana transactions usually confirm in **under 1 second**. If a transaction doesn't appear to go through, check the activity feed — it may have been retried automatically.
+</Accordion>
+
+<Accordion title="Why is my transaction pending?">
+  A transaction stays in the **pending** state while it's waiting to be included in a block by the network's validators. This can happen because:
+
+  - **Network congestion** — too many transactions are competing for limited block space.
+  - **Low gas fee** — if the fee you paid is below what validators are currently accepting, your transaction sits in the queue until conditions ease.
+
+  Pending transactions cannot be cancelled from within Magic once they've been broadcast. If your transaction has been pending for an unusually long time, check the network's block explorer for the latest status.
+</Accordion>
