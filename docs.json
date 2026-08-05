@@ -13,31 +13,70 @@
   },
   "favicon": "/favicon.png",
   "navigation": {
-    "tabs": [
+    "languages": [
       {
-        "tab": "Edward",
-        "groups": [
+        "language": "en",
+        "default": true,
+        "tabs": [
           {
-            "group": "Get started",
-            "pages": [
-              "index"
+            "tab": "Edward",
+            "groups": [
+              {
+                "group": "Get started",
+                "pages": [
+                  "index"
+                ]
+              },
+              {
+                "group": "Admin guide",
+                "pages": [
+                  "edward/admin/overview",
+                  "edward/admin/setup",
+                  "edward/admin/team-access",
+                  "edward/admin/documents"
+                ]
+              },
+              {
+                "group": "Broker guide",
+                "pages": [
+                  "edward/broker/overview",
+                  "edward/broker/asking-questions",
+                  "edward/broker/understanding-answers"
+                ]
+              }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "language": "fr",
+        "tabs": [
           {
-            "group": "Admin guide",
-            "pages": [
-              "edward/admin/overview",
-              "edward/admin/setup",
-              "edward/admin/team-access",
-              "edward/admin/documents"
-            ]
-          },
-          {
-            "group": "Broker guide",
-            "pages": [
-              "edward/broker/overview",
-              "edward/broker/asking-questions",
-              "edward/broker/understanding-answers"
+            "tab": "Edward",
+            "groups": [
+              {
+                "group": "Démarrer",
+                "pages": [
+                  "fr/index"
+                ]
+              },
+              {
+                "group": "Guide de l'administrateur",
+                "pages": [
+                  "fr/edward/admin/overview",
+                  "fr/edward/admin/setup",
+                  "fr/edward/admin/team-access",
+                  "fr/edward/admin/documents"
+                ]
+              },
+              {
+                "group": "Guide du courtier",
+                "pages": [
+                  "fr/edward/broker/overview",
+                  "fr/edward/broker/asking-questions",
+                  "fr/edward/broker/understanding-answers"
+                ]
+              }
             ]
           }
         ]

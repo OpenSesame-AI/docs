@@ -1,0 +1,62 @@
+---
+title: "Gérer vos documents"
+sidebarTitle: "Gérer les documents"
+description: "Comment Edward organise les documents de souscription, comment les ajouter et les vérifier, et comment garder votre bibliothèque à jour."
+---
+
+Edward ne vaut que les documents qui le sous-tendent. En tant qu'administrateur, vous gardez la bibliothèque de votre cabinet exacte, correctement cadrée et à jour.
+
+<Frame caption="L'écran Documents : filtrez par assureur, produit ou région, importez de nouveaux fichiers, et consultez l'état Status, Review et Retrieval de chaque document.">
+  <img src="/images/admin-documents.png" alt="L'écran Documents d'Edward répertoriant des manuels d'assureurs avec les colonnes Status, Review et Retrieval" />
+</Frame>
+
+## Types de documents
+
+Edward traite les documents différemment selon leur niveau d'autorité :
+
+| Type | Ce que c'est | Comment Edward l'utilise |
+| --- | --- | --- |
+| **Manuels** | Manuels de souscription des assureurs | La source principale et faisant autorité. Les réponses de souscription en sont issues. |
+| **Compléments** | Bulletins, modalités de paiement, libellés de police | Mises à jour et ajouts qui modifient le manuel. Par exemple, un bulletin plus récent prévaut sur une règle plus ancienne. |
+| **Généraux** | Documents propres au cabinet, sans assureur, produit ni région | Contexte de fond. Peuvent compléter une réponse mais ne prévalent jamais sur une règle de souscription. |
+
+<Info>
+  Edward hiérarchise les preuves : les manuels font autorité, les compléments les affinent, et les documents généraux ne font qu'ajouter du contexte. Une réponse ne laissera jamais un document général prévaloir sur la règle de souscription d'un assureur.
+</Info>
+
+## D'où proviennent les documents
+
+Votre espace de travail puise dans deux sources :
+
+- **Documents General Magic :** des documents d'assureurs partagés que nous maintenons, accessibles à chaque cabinet et filtrés selon les accès de chaque courtier.
+- **Documents de votre cabinet :** les documents que vous importez, visibles uniquement au sein de votre cabinet et filtrés selon les accès de chaque courtier.
+
+## Ajouter un document
+
+<Steps>
+  <Step title="Importez le fichier">
+    Sur l'écran **Documents**, cliquez sur **Upload** et choisissez le PDF.
+  </Step>
+  <Step title="Confirmez ses détails">
+    Edward lit le document et propose son assureur, son produit, sa région et sa date. Vérifiez-les, car un étiquetage exact est ce qui achemine le document vers les bonnes questions.
+  </Step>
+  <Step title="Vérifiez-le">
+    Réglez la colonne **Review** du document sur **Verified**. Une fois que sa colonne **Retrieval** affiche **Ready**, il est en ligne et Edward peut y répondre.
+  </Step>
+</Steps>
+
+<Warning>
+  Un document n'est en ligne que lorsque sa colonne **Review** est à **Verified** et sa colonne **Retrieval** à **Ready**. Si un courtier dit qu'un document « n'apparaît pas » dans les réponses, vérifiez ces deux colonnes sur l'écran **Documents**.
+</Warning>
+
+## Garder votre bibliothèque à jour
+
+Edward résout les conflits par date : lorsque deux documents divergent, **le document faisant autorité le plus récent prévaut**. Pour garder les réponses exactes :
+
+- Importez les **bulletins et mises à jour** dès leur arrivée plutôt que de modifier d'anciens fichiers. Edward superpose automatiquement le document plus récent au manuel de base.
+- Remplacez les manuels obsolètes lorsqu'un assureur publie une nouvelle édition.
+- Retirez ou recadrez les documents qui ne s'appliquent plus.
+
+<Tip>
+  Les doublons sont gérés automatiquement : si vous importez un fichier déjà présent dans le système, Edward le reconnaît et ne le retraite pas.
+</Tip>
